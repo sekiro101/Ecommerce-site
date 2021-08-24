@@ -1,0 +1,623 @@
+*{
+margin: 0;
+padding: 0;
+}
+header{
+background: black;
+width: 100vw;
+height: 10vh;
+border-bottom: 0.1em solid white;
+}
+#icon{
+background: url(Icon.ico);
+position: absolute;
+width:10vh;
+height: 10vh;
+top: 0.01%;
+left: 1%;
+background-repeat: no-repeat;  
+background-position: center;
+background-size: cover;
+}
+@media screen and (min-width:600px){
+#icon{
+        left: 1%;
+    }
+}
+nav ul{
+    list-style: none;
+    color: white;
+    float: right;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-gap:0.5em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.6em;
+    align-items: center;
+    justify-items: center;
+    grid-auto-rows:10vh;
+}
+@media screen and (min-width:375px){
+nav ul{
+        font-size: 0.69em;
+    }
+}
+@media screen and (min-width:400px){
+nav ul{
+        font-size: 0.8em;
+    }
+}
+@media screen and (min-width:500px){
+nav ul{
+        font-size: 1em;
+    }
+}
+@media screen and (min-width:550px){
+nav ul{
+        font-size: 1.1em;
+    }
+}
+@media screen and (min-width:600px){
+nav ul{
+        font-size: 1.2em;
+    }
+}@media screen and (min-width:670px){
+nav ul{
+        font-size: 1.3em;
+    }
+}
+@media screen and (min-width:750px){
+nav ul{
+        font-size: 1.5em;
+    }
+}
+@media screen and (min-width:1300px){
+nav ul{
+        font-size: 1.7em;
+    }
+}
+
+@media screen and (min-width:2000px){
+nav ul{
+        font-size: 2em;
+    }
+}
+@media screen and (min-width:2200px){
+nav ul{
+        font-size: 2.2em;
+    }
+}
+@media screen and (min-width:2460px){
+nav ul{
+        font-size: 2.5em;
+    }
+}
+nav ul li{
+    cursor: pointer;
+}
+nav ul li:hover{
+    
+    color: burlywood;
+}
+body{
+    background: linear-gradient(rgb(0,0,0,0.2), rgb(0,0,0,0.2)), url(island.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+}
+#description{
+    background: linear-gradient(rgb(0,0,0,0.2),rgb(0,0,0,0.2)), url(watch.jpg);
+    width: cover;
+    height: 30vh;
+    border-bottom: 0.3em solid rgba(255, 228, 196, 0.685);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: grid;
+    align-items: end;
+}
+@media screen and (min-width: 550px){
+    #description{
+        height: 40vh;
+        background-size: cover;
+    }
+}
+@media screen and (min-width: 650px){
+    #description{
+        height: 45vh;
+        background-size: cover;
+    }
+}
+@media screen and (min-width: 700px){
+    #description{
+        height: 50vh;
+        background-size: cover;
+    }
+}
+@media screen and (min-width: 750px){
+    #description{
+        background-size: cover;
+    }
+}
+@media screen and (min-width: 800px){
+    #description{   
+        background-size: cover;
+    }
+}
+@media screen and (min-width: 900px){
+    #description{  
+        background-size: cover;
+    }
+}
+@media screen and (min-width: 1000px){
+    #description{
+        height: 55vh;
+        background-size: cover;
+    }
+}
+@media screen and (min-width: 1300px){
+    #description{
+        background-size: cover;
+    }
+}
+@media screen and (min-width: 1500px){
+    #description{
+        background-size: cover;
+    }
+}
+@media screen and (min-width: 1700px){
+    #description{
+        background-size: cover;
+    }
+}
+@media screen and (min-width: 1900px){
+    #description{
+        background-size: cover;
+    }
+}
+@media screen and (min-width: 2000px){
+    #description{
+        background-size: cover;
+    }
+}
+
+#header{   
+    color: rgb(222, 184, 135);
+    font-family: cursive;
+    font-size: 1.5em;
+    width: 40%;
+    text-align: center;
+}
+#info{
+    color: aliceblue;
+    max-width: 770px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.85em;
+    text-align: center;
+}
+@media screen and (min-width:550px){
+    #header{
+    font-size: 1.7em;
+    }
+    #info{
+    font-size: 1em;
+    }
+}
+@media screen and (min-width:650px){
+    #header{
+    font-size: 1.9em;
+    }
+    #info{
+    font-size: 1.1em;
+    }
+}
+@media screen and (min-width:750px){
+    #header{
+    font-size: 2em;
+    }
+    #info{
+    font-size: 1.2em;
+    }
+}
+@media screen and (min-width:800px){
+    #header{
+    font-size: 1.97em;
+    }
+    #info{
+    font-size: 1.3em;
+    }
+}
+@media screen and (min-width:900px){
+    #header{
+    font-size: 2em;
+    }
+    #info{
+    font-size: 1.3em;
+    }
+}
+@media screen and (min-width:1000px){
+    #header{
+    font-size: 2.24em;
+    }
+}
+@media screen and (min-width:1200px){
+    #header{
+    font-size: 2.697em;
+    }
+    #info{
+    font-size: 1.4em;
+    }
+}
+@media screen and (min-width: 1400px){
+    #header{
+        font-size: 3em;
+    }
+    #info{
+        font-size: 1.5em;
+    }
+}
+@media screen and (min-width: 1600px){
+    #header{
+        font-size: 3.3em;
+    }
+    #info{
+        font-size: 1.7em;
+    }
+}
+@media screen and (min-width: 1800px){
+    #header{
+        font-size: 3.6em;
+    }
+    #info{
+        font-size: 1.8em;
+    }
+}
+@media screen and (min-width: 2000px){
+    #header{
+        font-size: 3.8em;
+    }
+    #info{
+        font-size: 1.9em;
+    }
+}
+@media screen and (min-width: 2200px){
+    #header{
+        font-size: 4em;
+    }
+    #info{
+        font-size: 2em;
+    }
+}
+@media screen and (min-width: 2400px){
+    #header{
+        font-size: 5.7em;
+    }
+    #info{
+        font-size: 3em;
+    }
+}
+.header2{
+    color: white;
+    font-family: 'Brush Script MT', 'Brush Script Std', cursive;
+    text-align: center;
+    font-size: 2.6em;
+    text-shadow: 0px 0px 5px black;
+    text-decoration: underline;
+}
+#contain{
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+}
+#element1, #element2, #element3{
+    padding: 2.5%;  
+}
+
+#contain2{
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+
+}
+#element4, #element5, #element6{
+    padding: 2.5%;   
+}
+img{    
+border: 0.4em solid rgb(160, 156, 156); 
+border-radius: 2.5em;   
+width: 35vh;
+height: 35vh;
+}
+@media screen and (min-width: 1000px){
+    img{
+        width: 30vh;
+    }
+}
+@media screen and (min-width: 1200px){
+    img{
+        width: 33vh;
+    }
+}
+@media screen and (min-width: 1400px){
+    img{
+        width: 35vh;
+    }
+}
+@media screen and (min-width: 2000px){
+    img{
+        width: 40vh;
+    }
+}
+.info2{
+    cursor: pointer;
+    padding: 1%;
+    width: cover;
+    border-radius: 0.4em;
+    color: orange;
+    border: 0.2em solid;
+    font-weight: bold;
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1em;
+}
+.info2:hover{
+    color:black;
+    background: orange;
+}
+.info2:active{
+    box-shadow: 0 0 0.3em black inset;
+}
+@media  screen and (min-width:800px){
+.info2{
+    width: 80%;
+    font-size: 1.2em;
+    }
+}
+@media  screen and (min-width:1000px){
+.info2{
+    width: 80%;
+    }
+}
+@media  screen and (min-width:1200px){
+.info2{
+    width: 90%;
+    }
+}
+@media  screen and (min-width:1400px){
+.info2{
+    width: cover;
+    }
+}
+@media  screen and (min-width:1800px){
+.info2{
+    width: cover;
+    font-size: 1.5em;
+    }
+}
+@media  screen and (min-width:2100px){
+.info2{
+    width: cover;
+    font-size: 2em;
+    }
+}
+.up{
+    color: aliceblue;
+    font-family: 'Brush Script MT', 'Brush Script Std', cursive;
+    text-align: center;
+    font-size: 5em;
+    border-bottom: 0.0em solid ;
+}
+.class1{
+    background: linear-gradient(rgb(0,0,0,0.5),rgb(0,0,0,0.5));
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 1%;
+    color:white;
+    padding-bottom: 1%;
+    justify-content: center;
+}
+.new{
+border: none;
+border: rgba(255, 166, 0, 0.698) 0.4em solid;
+border-radius: 5%;
+}
+.art2{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;  
+    margin-left: 1.5%;
+    font-size:1.3em;
+    align-self: start;
+    margin-top: 1%;
+    margin-bottom: 2%;
+    background: rgba(128, 128, 128, 0);
+    max-width: 1000px;
+    height: 30.07vh;
+    font-style: italic;
+    text-align: justify; 
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-wrap: break-word;
+}
+#gold{
+    font-size: 2em;
+    color: goldenrod;
+}
+.new2{
+border: none;
+border: rgb(36, 58, 48) 0.4em solid;
+border-radius: 5%;
+}
+#glow{
+    font-size: 2em;
+    color: rgb(32, 223, 134);
+}
+@media screen and (min-width:600px) {
+    .header2{
+        font-size: 2.8em;
+    }
+}
+@media screen and (min-width:800px) {
+    .header2{
+        font-size: 3.3em;
+    }
+}
+@media screen and (min-width:1000px) {
+    .header2{
+        font-size: 3.6em;
+    } 
+}
+@media screen and (min-width:1300px) {
+    .header2{
+        font-size: 3.8em;
+    }
+}
+@media screen and (min-width:1500px) {
+    .art2{
+        font-size: 1.43em;
+    }
+}
+@media screen and (min-width:1800px) {
+    .header2{
+        font-size: 4em;
+    }
+    .art2{
+        font-size: 2em;
+    }
+    #gold{
+        font-size: 2em;
+    }
+    #glow{
+        font-size: 2em;
+    }
+}
+@media screen and (min-width:2000px) {
+    .header2{
+        font-size: 5em;
+    }
+    .art2{
+        font-size: 2.4em;
+    }
+}
+footer{
+    background: rgb(10, 10, 10);
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    width: cover;
+    height: auto;
+}
+#search{
+    display: flex;
+    justify-content: center;
+    padding-top: 0.5%;
+}
+#sea{
+    background:  rgb(19, 19, 19);
+    box-shadow: 0 0 0.1em white;
+    border-top-left-radius: 0.1em;
+    border-bottom-left-radius: 0.1em; 
+    font-size: 1.1em;
+    padding: 0.1% 0.1% 0 0.1%;
+    margin-top: 0.5%;
+}
+input{
+    width: 25%;
+    height: auto;
+    margin-top: 0.5%;
+    font-size: 1em;
+    outline: none;
+    border: none;
+    border-top-right-radius: 0.1em;
+    border-bottom-right-radius: 0.1em;
+}
+input:hover, input:focus{
+background: rgb(233, 245, 255);
+}
+#copy{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 1%;
+    font-size: 1.2em;
+}
+#design{
+    margin-top: 1%;
+    margin-left: 1%;
+    font-size: 1em;
+    font-style: italic;
+}
+#design::after{
+    content: "Oppong Prince";
+    color: rgb(118, 162, 243);
+}
+@media screen and (min-width:700px){
+    #sea{
+font-size: 1.3em;
+    }
+    input{
+font-size: 1.2em;
+    }
+    #copy{
+font-size: 1.5em;
+    }
+    #design{
+font-size: 1.1em;
+    }   
+}
+@media screen and (min-width:900px){
+    #copy{
+font-size: 1.7em;
+    }
+    #design{
+font-size: 1.2em;
+    }   
+}
+@media screen and (min-width:1800px){
+    #sea{
+font-size: 2em;
+    }
+    input{
+font-size: 1.9em;
+
+    }
+    #copy{
+font-size: 2.3em;
+    }
+    #design{
+font-size: 1.5em;
+    }  
+    .art2{
+        max-width: 1500px;
+    }
+}
+@media screen and (min-width:2300px){
+    #sea{
+font-size: 2em;
+    }
+    input{
+font-size: 1.9em;
+
+    }
+    #copy{
+font-size: 2.3em;
+    }
+    #design{
+font-size: 1.6em;
+    }   
+}
+@media screen and (min-width:2560px){
+    #sea{
+font-size: 2.2em;
+    }
+    input{
+font-size: 2em;
+    }
+    #copy{
+font-size: 3em;
+    }
+    #design{
+font-size: 2em;
+    }   
+}
